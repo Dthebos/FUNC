@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My App Name</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      background: #e0e7ff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .screenshots img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .downloads a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background: #4f46e5;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #eee;
+    }
+    @media (max-width: 600px) {
+      .downloads a {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My App Name</h1>
+    <p>The ultimate solution to help you stay organized and productive!</p>
+  </header>
+
+  <section class="features">
+    <h2>✨ Features</h2>
+    <ul>
+      <li>✔️ Easy to use interface</li>
+      <li>📱 Fully responsive on all devices</li>
+      <li>🔐 Secure data and privacy</li>
+      <li>🧠 Smart reminders and alerts</li>
+    </ul>
+  </section>
+
+  <section class="screenshots">
+    <h2>📸 Screenshots</h2>
+    <img src="images/screenshot1.png" alt="App screenshot 1" />
+    <img src="images/screenshot2.png" alt="App screenshot 2" />
+  </section>
+
+  <section class="downloads">
+    <h2>⬇️ Download Now</h2>
+    <a href="#">Download for iOS</a>
+    <a href="#">Download for Android</a>
+  </section>
+
+  <footer>
+    <p>Made with 💜 by Brooke | <a href="https://instagram.com/yourapp" target="_blank">Instagram</a></p>
+  </footer>
+
+</body>
+</html>
